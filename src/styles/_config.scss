@@ -1,0 +1,36 @@
+@font-face {
+  font-family: BalooDa2-Regular;
+  src: url("../fonts/BalooDa2-Regular.ttf");
+}
+@font-face {
+  font-family: BalooDa2-Medium;
+  src: url("../fonts/BalooDa2-Medium.ttf");
+}
+@font-face {
+  font-family: BalooDa2-Bold;
+  src: url("../fonts/BalooDa2-Bold.ttf");
+}
+
+/*
+#06bcee 
+#20232a
+#fffffd #fffff8 #fffef3 #fffeee
+
+#f2f2f2 #e6e6e6 #d9d9d9 #cccccc #bfbfbf #b3b3b3 #a6a6a6
+#575757 #4a4a4a #3d3d3d #303030 #262626 #1a1a1a #0d0d0d
+#05aad7 #06bef0 #16c9f9 #2fcefa #48d4fa #61dafb #7ae0fc #93e6fc #acebfd
+#5d6779 #525a6b #49515f #3e4451 #333842 #282c34 #1d2026 #121417 #070709
+*/
+
+$react-Primary: #61dafb;
+$react-Secondary: #282c34;
+
+$color-Dark: #0d0d0d;
+$color-Light: #f2f2f2;
+$color-Accent: #06bcee;
+$color-Primary: $react-Primary;
+$color-Secondary: $react-Secondary;
+
+$font-Bold: BalooDa2-Bold;
+$font-Medium: BalooDa2-Medium;
+$font-Regular: BalooDa2-Regular;
