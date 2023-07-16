@@ -45,7 +45,7 @@ npm i -D webpack webpack-cli
 npm i -D webpack-dev-server html-webpack-plugin
 npm i -D style-loader css-loader sass-loader sass
 npm i -D babel-loader @babel/core @babel/preset-env
-npm i lodash moment
+npm i lodash moment gh-pages
 ```
 
 *project structure*

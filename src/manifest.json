@@ -1,25 +1,129 @@
 {
   "name": "Basic App",
   "short_name": "Basic Webpack Demo",
+  "description": "Early Buddhist texts from the Tipitaka (Tripitaka). Suttas (sutras) with the Buddha's teachings on mindfulness, insight, wisdom, and meditation.",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "display_override": [],
+  "id": "./",
+  "scope": "./",
+  "start_url": "./",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "./assets/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "./assets/maskable_icon_x48.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "48x48",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo512.png",
+      "src": "./assets/maskable_icon_x72.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "start_url": "."
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Go to Home page",
+      "url": "./",
+      "icons": [
+        {
+          "src": "./assets/logo_x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "Go to About page",
+      "url": "./about",
+      "icons": [
+        {
+          "src": "./assets/logo_x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "Go to Services page",
+      "url": "./services",
+      "icons": [
+        {
+          "src": "./assets/logo_x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "The Pali Tipitaka",
+      "short_name": "Pali Tipitaka",
+      "description": "This web site is based on the Chaṭṭha Saṅgāyana CD published by the Vipassana Research Institute.",
+      "url": "https://www.tipitaka.org/",
+      "icons": [
+        {
+          "src": "https://www.tipitaka.org/images/aniwheel2.gif",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/portrait.png",
+      "type": "image/png",
+      "sizes": "1080x2131"
+    },
+    {
+      "src": "./assets/landscape.png",
+      "type": "image/png",
+      "sizes": "2125x1016"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=DhammaChakka"
+    }
+  ]
 }

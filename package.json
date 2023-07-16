@@ -7,10 +7,12 @@
     "clean": "rm -fr public",
     "start": "webpack serve --hot --mode development",
     "build-dev": "webpack --mode development",
-    "build-prod": "webpack --mode production"
+    "build-prod": "webpack --mode production",
+    "predeploy": "npm run build-prod",
+    "deploy": "gh-pages -d public && npm run clean"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webpack", "webpack-cli"],
+  "author": "sarbanandabhikkhu",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21",

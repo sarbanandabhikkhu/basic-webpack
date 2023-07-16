@@ -1,4 +1,4 @@
-import explorer from "../../icons/copy-alt.svg";
+import explorer from "../../icons/menu-bar.svg";
 
 const nav = document.createElement("nav");
 const topNav = document.createElement("div");
